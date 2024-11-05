@@ -43,9 +43,11 @@
 
 ## PART 4 設置步驟
 
-參考網站：[Google Colab 教學 (3)｜儲存、協作及共享 Colab 筆記本](https://medium.com/python4u/google-colab-%E6%95%99%E5%AD%B8-3-%E5%84%B2%E5%AD%98-%E5%8D%94%E4%BD%9C%E5%8F%8A%E5%85%B1%E4%BA%AB-colab-%E7%AD%86%E8%A8%98%E6%9C%AC-aec9a73addd2)
+1. 參考網站：[Google Colab 教學 (3)｜儲存、協作及共享 Colab 筆記本](https://medium.com/python4u/google-colab-%E6%95%99%E5%AD%B8-3-%E5%84%B2%E5%AD%98-%E5%8D%94%E4%BD%9C%E5%8F%8A%E5%85%B1%E4%BA%AB-colab-%E7%AD%86%E8%A8%98%E6%9C%AC-aec9a73addd2)
 - 點擊儲存的 GoogleMapCrawler.ipynb 後，你可以看到我的 Python 檔案內容。
 - 同時因為儲存時有勾選包含 Colaboratory 連結，所以你點擊「Open in Colab」後就可以直接連到 Google Colab 編輯環境。
+2. 參考網站 [完整程式參考](https://couplehonest.com/api-python/#jie_lun_pa_chong_ji_API_zhi_shi_qu_de_shu_ju_de_kai_shi_hou_xu_de_zi_liao_shi_yong_ji_fen_xi_cai_shi_guan_jian)
+3. 參考網站 [API取得與設置](https://www.weya.com.tw/design/google-map-api-key)
 
 ## PART 5 使用方法
 1. 在google colab或jupter notebook打開此程式
