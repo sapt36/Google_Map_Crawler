@@ -1,7 +1,9 @@
 # GoogleMapCrawler
 
 ## PART 1 摘要
-`GoogleMapCrawler` 是一個基於 Python 的爬蟲程式，用於從 Google 地圖抓取資料。此程式使用googlemaps等多種函式庫來取得、處理並儲存地理位置的相關資訊，例如該地點的地址、評論、評分等，以滿足從大量資料中找出潛在並且有價值的資訊需求。
+- `GoogleMapCrawler` 是一個基於 Python 的爬蟲程式，用於從 Google 地圖抓取資料。
+- 使用googlemaps等多種函式庫來取得、處理並儲存地理位置的相關資訊，
+- 例如該地點的地址、評論、評分等，以滿足從大量資料中找出潛在並且有價值的資訊需求。
 
 ## PART 2 功能
 - **位置搜尋**：根據關鍵字及座標，並設定範圍進行位置搜尋。
@@ -42,8 +44,8 @@
 ## PART 4 設置步驟
 
 參考網站：[Google Colab 教學 (3)｜儲存、協作及共享 Colab 筆記本](https://medium.com/python4u/google-colab-%E6%95%99%E5%AD%B8-3-%E5%84%B2%E5%AD%98-%E5%8D%94%E4%BD%9C%E5%8F%8A%E5%85%B1%E4%BA%AB-colab-%E7%AD%86%E8%A8%98%E6%9C%AC-aec9a73addd2)
-點擊儲存的 GoogleMapCrawler.ipynb 後，你可以看到我的 Python 檔案內容。
-同時因為儲存時有勾選包含 Colaboratory 連結，所以你點擊「Open in Colab」後就可以直接連到 Google Colab 編輯環境。
+- 點擊儲存的 GoogleMapCrawler.ipynb 後，你可以看到我的 Python 檔案內容。
+- 同時因為儲存時有勾選包含 Colaboratory 連結，所以你點擊「Open in Colab」後就可以直接連到 Google Colab 編輯環境。
 
 ## PART 5 使用方法
 1. 在google colab或jupter notebook打開此程式
@@ -51,9 +53,11 @@
 3. 輸入您的 Google Maps API 金鑰
 4. 設定max_results 參數，代表最多出現的結果數(可增加)
 5. 設定位置座標、範圍和關鍵字
+> ```python
 > location = "25.03640955354205, 121.52005195201416" # 座標位於：國立中正紀念堂
 > radius = 50000  # 擴大範圍可獲取更多景點 50000 = 50KM
 > keyword = "spot"  # 可以根據需求更改關鍵字
+> ```
 6. 設定json檔的檔案名稱 
 7. 執行第二個儲存格，執行爬蟲程式
 > 擷取的資料將儲存在json格式的檔案中。
